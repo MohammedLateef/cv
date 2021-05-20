@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta chcarset="utf-8">
+  <title> Contacts </title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #indent {
+      text-indent: 50px;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    img.one {
+      height: 10em;
+      width: 20em;
+    }
+
+    img.two {
+      height: 10em;
+      width: 20em;
+    }
+
+    img.three {
+      height: 10em;
+      width: 20em;
+    }
+
+    .column {
+      float: left;
+      width: 30em;
+      padding: 1px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <hr size="5" color="red">
+
+  <h1>
+    <center>
+      <u>Contacts</u>
+    </center>
+  </h1>
+  
+  <hr size="4" color="red">
+  <ul>
+    <p><strong><u>Address</u></strong></p>
+    <li>161 August lily Cres</li>
+    <p><strong><u>Phone number:</u></strong></p>
+    <li>613-298-4649</li>
+    <p><strong><u>Email</u></strong></p>
+    <li><a href ="khalilmo13@gmail.com">khalilmo13@gmail.com</a>
+    <hr>
+  </ul>
+  <ul>
+    <div class="row">
+      <div class="column" style="width:75%">
+        <form action="mailto:khalilmo13@gmail.com" method="post" enctype="text/plain">
+          <label>Your Name</label><br>
+          <input type="text" name="yourName" value=""><br><br>
+          <label>Your Email</label><br>
+          <input type="email" name="yourEmail" value=""><br><br>
+          <label>Your Message</label><br>
+          <textarea name="Message" row="10" cols="70"></textarea>
+          <input type="submit" name="" value="send">
+        </form>
+      </div>
+    </div>
+  </ul>
+</body>
+
+
+
+
+
+
+</html>

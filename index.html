@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mohammed's Personal Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #indent {
+      text-indent: 50px;
+    }
+
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    img.one {
+      height: 10em;
+      width: 20em;
+    }
+
+    img.two {
+      height: 10em;
+      width: 20em;
+    }
+
+    img.three {
+      height: 10em;
+      width: 20em;
+    }
+    
+    img.four {
+      height :10em;
+      width: 10em;
+    }
+
+    .column {
+      float: left;
+      width: 30em;
+      padding: 1px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <table cellspacing ="20">
+    <tbody>
+      <tr>
+      <!--Dividor line between the sections with 5 pixel height size and blue color-->
+        <td>
+          <img class="four" src="Images/Professional.jpg" alt = "personal Image" style="border-right-style: solid;border-right-width: 2px;border-top-width: 2px; border-top-style: solid; border-left-width: 2px;
+            border-left-style: solid; border-bottom-width: 2px;border-bottom-style: solid;margin-bottom: 5px;margin-right: 5px;
+            margin-top: 5px;margin-left: 5px;"> </img>
+        </td>
+        <td>
+          <h1 style="text-align: center;"> <strong> Mohammed Lateef </strong> </h1>
+          <hr style="color:red">
+          <!--This is a centered heading to begin the page-->
+          <p> <em> <strong> Software Engineering Student <br> Department of Systems and Computer Engineering <br> Carleton
+                University </strong> </em> </p>
+          <!--The first descriptions to add under the name -->
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <!--breaks mean there is a new line-->
+          <p id=indent> I am an Engineering student at Carleton university, Currently studying software development with
+          elements of hardware work. I am learning to become adept at different software development such
+          as web development along with object oriented programing, python, and C/C++. Other than coding however,
+          I am also interested in 3d modelling and arts; I try to also expand my skills in those areas. Currently
+          im working on 3d anatomy and 3d scene building and animations. </p>
+    
+          <p id=indent>Other than Coding and 3D modelling I also like to be with friends whether its hanging out or playing
+          online
+          with them. If we are not feeling playing anything we also like to enjoy our time by watching shows or anime
+          together.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+  <hr size="5" color="blue">
+
+  <hr size="5" color="blue">
+  <h3><strong><u>Education</u></strong></h3>
+  <ol>
+    <div class="row">
+      <div class="column">
+        <img class="one" src="Images/Merivale.png" alt="Image of Merivale highschool" style="border-right-style: solid;border-right-width: 2px;border-top-width: 2px; border-top-style: solid; border-left-width: 2px;
+                border-left-style: solid; border-bottom-width: 2px;border-bottom-style: solid;margin-bottom: 5px;margin-right: 5px;
+                margin-top: 5px;margin-left: 5px;"> </img>
+        <p text-align:justify> (1) <a href="https://merivalehs.ocdsb.ca/"> Merivale highschool</a> (2014-2016) </p>
+      </div>
+      <div class="column">
+        <img class="two" src="Images/Stfx.jpg" alt="Image of Stfx" style="border-right-style: solid;border-right-width: 2px;border-top-width: 2px; border-top-style: solid; border-left-width: 2px;
+                border-left-style: solid; border-bottom-width: 2px;border-bottom-style: solid;margin-bottom: 5px;margin-right: 5px;
+                margin-top: 5px;margin-left: 5px;"> </img>
+        <p text-align:justify> (2) <a href="http://fxh.ocsb.ca/"> St Francis Xavier highschool</a> (2016-2018) </p>
+      </div>
+      <div class="column">
+        <img class="three" src="Images/Carleton.jpg" alt="Image of Carleton University campus" style="border-right-style: solid;border-right-width: 2px;border-top-width: 2px; border-top-style: solid; border-left-width: 2px;
+                border-left-style: solid; border-bottom-width: 2px;border-bottom-style: solid;margin-bottom: 5px;margin-right: 5px;
+                margin-top: 5px;margin-left: 5px;"> </img>
+        <p text-align:justify> (3) <a href="https://carleton.ca/"> Carleton University</a> (ongoing) </p>
+      </div>
+    </div>
+  </ol>
+  <h3><strong><u>Work experience.</u></strong></h3>
+  <p>Null at the moment</p>
+  <table border="2px">
+    <thead>
+      <tr> 
+        <th>
+          <u><strong>Date</strong></u>
+        </th>
+        <th>
+          <u><strong>Schools</strong></u>
+        </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          2014-2016
+        </td>
+        <td>
+          Merivale highschool
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2016-2018
+        </td>
+        <td>
+          St Francis Xavier highschool
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ongoing
+        </td>
+        <td>
+          Carleton university
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <br>
+  <table border="5px" color = "blue">
+    <h3><strong><u>Skills</u></strong></h3>
+    <tr>
+      <td>3D modelling</td>
+      <td>&#11088 &#11088 &#11088</td>
+    </tr>
+    <tr>
+      <td>Graphical Design</td>
+      <td>&#11088 &#11088 &#11088 &#11088</td>
+    </tr>
+    <tr>
+      <td>Programming</td>
+      <td>&#11088 &#11088</td>
+      </tr>
+  </table>
+  <ul>
+    <center>
+      <li> <a href="Three_D.html">3D modelling</a> </li>
+      <br>
+      <li> <a href="contacts.html">Contact me</a> </li>
+      <br>
+      <li> <a href="hobbies.html">Hobbies</a> </li>
+    </center>
+  </ul>
+</body>
+
+</html>
